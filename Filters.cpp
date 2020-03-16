@@ -88,7 +88,7 @@ QImage Gray_scale_filter::calculateNewImagePixMap(const QImage& _image) {
 QImage Sepia_filter::calculateNewImagePixMap(const QImage& _image) {
 	QImage result_Image(_image);
 	int Intensity;
-	float k = 20.0f;
+	float k = 10.0f;
 
 	for (int x = 0; x < _image.width(); x++)
 		for (int y = 0; y < _image.height(); y++) {
